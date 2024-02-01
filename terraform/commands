@@ -1,0 +1,38 @@
+terraform -help
+terraform <command> -help
+terraform -version
+terraform init
+terraform get
+terraform get -update=true
+terraform plan
+terraform plan -destroy
+terraform apply
+terraform apply -target
+terraform destroy -target
+terraform refresh
+terraform providers
+terraform workspace new
+terraform workspace select
+terraform workspace list
+terraform workspace show
+terraform workspace delete
+terraform fmt
+terraform validate
+terraform graph
+terraform output
+terraform output instance_public_ip
+terraform output -json
+terraform show
+terraform import aws_instance.foo i-abdl364o
+terraform state list
+terraform state list aws_instance.my_ec2
+terraform state mv
+terraform state rm
+terraform state pull
+terraform state push
+terraform state show aws_instance.my_ec2
+terraform taint aws_instance.my_ec2
+terraform untaint aws_instance.my_ec2
+terraform force-unlock LOCK_ID
+terraform login
+terraform logout
